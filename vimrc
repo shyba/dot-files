@@ -13,3 +13,7 @@ set expandtab
 execute pathogen#infect()
 
 set encoding=utf-8
+
+" Key mappings  "
+set tags=tags,./tags
+nmap <Leader>rt :!ctags -R .<Enter><Enter>
