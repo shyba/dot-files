@@ -17,3 +17,6 @@ set encoding=utf-8
 " Key mappings  "
 set tags=tags,./tags
 nmap <Leader>rt :!ctags -R .<Enter><Enter>
+nmap <Leader><Enter> :tabe<Enter>
+nmap <Leader>] :tabn<Enter>
+nmap <Leader>[ :tabp<Enter>
