@@ -20,3 +20,6 @@ nmap <Leader>rt :!ctags -R .<Enter><Enter>
 nmap <Leader><Enter> :tabe<Enter>
 nmap <Leader>] :tabn<Enter>
 nmap <Leader>[ :tabp<Enter>
+
+" NERDTree to ignore .pyc files "
+let NERDTreeIgnore = ['\.pyc$']
