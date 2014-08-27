@@ -6,8 +6,8 @@ syntax on
 filetype indent on
 set autoindent
 " Inserts spaces in place of tabs "
-set tabstop=2
-set shiftwidth=2
+set tabstop=4
+set shiftwidth=4
 set expandtab
 
 execute pathogen#infect()
