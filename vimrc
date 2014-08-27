@@ -30,3 +30,6 @@ let NERDTreeIgnore = ['\.pyc$']
 " Performs pep8 checking on file save  "
 autocmd BufWritePost *.py call Flake8()
 let g:flake8_ignore="E501"
+
+" CtrlP to ignore binary stuff "
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.pyc
